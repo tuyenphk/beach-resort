@@ -46,7 +46,7 @@ export default class Service extends React.Component {
             {
                 icon: <FaGift />,
                 title: "Birthday Gift",
-                info: 'We will have a suprising birthday gift for anyone who has a birthday on the day stay at our hotel'
+                info: 'We will have a suprising birthday gift for anyone who has a birthday on the day stay at our resort'
             }
         ]
     }
