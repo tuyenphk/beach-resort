@@ -5,18 +5,18 @@ const RoomContext = React.createContext();
 class RoomProvider extends Component {
     state={
         rooms: [],
-        sortedRoom: [],
-        featuredRoom: [],
+        sortedRooms: [],
+        featuredRooms: [],
         loading: true
     }
 
     componentDidMount(){
         let rooms = this.formatData(items);
-        let featuredRoom = rooms.filter(room => room.featured === true);
+        let featuredRooms = rooms.filter(room => room.featured === true);
         this.setState({
             rooms, 
-            featuredRoom, 
-            sortedRoom: rooms,
+            featuredRooms, 
+            sortedRooms: rooms,
             loading: false
         })
     }

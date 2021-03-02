@@ -2,10 +2,10 @@ import React from 'react'
 import {Route, Switch} from 'react-router-dom'
 
 import Home from './pages/Home';
-import Room from './pages/Room';
+import Rooms from './pages/Rooms';
 import SingleRoom from './pages/SingleRoom';
 import Error from './pages/Error';
-import Service from './pages/Service';
+import Services from './pages/Services';
 
 import NavBar from './components/NavBar'
 import "./App.css"
@@ -16,9 +16,9 @@ function App() {
       <NavBar />
       <Switch>
         <Route exact path="/" component={Home} /> 
-        <Route exact path="/room" component={Room} />
+        <Route exact path="/rooms" component={Rooms} />
         <Route exact path="/room/:slug" component={SingleRoom} />
-        <Route exact path="/service" component={Service} />
+        <Route exact path="/services" component={Services} />
         <Route component={Error} />
       </Switch>
     </>
