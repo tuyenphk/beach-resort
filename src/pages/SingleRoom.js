@@ -26,10 +26,13 @@ export default class SingleRoom extends Component {
                 <Link to="/rooms" className="btn-primary">Back to rooms</Link>
             </div>
         }
+        const {name, description, capacity, size, price, extras, breakfast, pets, images} = room
         return (
-            <div>
-                Hello from Single Room page{room.name}
-            </div>
+            <Hero hero='roomsHero'>
+                <Banner title={`${name}room`}>
+                    <Link to='/rooms' className="btn-primary">Back to Rooms</Link>
+                </Banner>
+            </Hero>
         );
     }
 }
