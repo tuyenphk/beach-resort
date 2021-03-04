@@ -1,4 +1,4 @@
-## Beach Resort
+# Beach Resort
 
 This is a progressive web application, built by React among React library and Bootstrap framework.
 
