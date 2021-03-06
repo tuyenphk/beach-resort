@@ -2,4 +2,6 @@
 
 This is a progressive web application, built by React among React library and Bootstrap framework.
 
-This application is on the middle way of developing.
+Please click the link image below to watch the demo for this beach resort application:
+
+[![beach-resort](http://img.youtube.com/vi/Vsn-YCUISyY/0.jpg)](http://www.youtube.com/watch?v=Vsn-YCUISyY "Beach Resort")
